@@ -1,0 +1,93 @@
+header {
+  background-color: white;
+  height: 100px;
+}
+header .navtop {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin: 20px;
+}
+header .navtop .logo {
+  position: relative;
+  width: 145px;
+}
+header .navtop .adress {
+  width: 300px;
+  color: #085c08;
+}
+header .navtop img {
+  position: absolute;
+}
+header .navtop button {
+  width: 176px;
+  height: 40px;
+  background: #17a085;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  transition: 0.5s all;
+}
+header .navtop button:hover {
+  background: #08715c;
+  cursor: pointer;
+}
+header .navtop button img {
+  position: absolute;
+  margin-right: 8rem;
+  width: 22px;
+}
+header .navtop .img_phone {
+  margin-left: 13rem;
+}
+header .navtop .loc {
+  margin-right: 46rem;
+}
+header .navtop .line {
+  background-color: #02c702;
+  height: 2px;
+  width: 150px;
+  margin-top: 10px;
+}
+header .navtop h3 {
+  font-size: 0.9rem;
+}
+header .navtop p {
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+header .navtop .phone {
+  color: #085c08;
+  margin-bottom: 20px;
+}
+header .navbottom {
+  height: 60px;
+  background-color: #17a085;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .navbottom ul {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  list-style: none;
+  color: white;
+  font-weight: bold;
+}
+header .navbottom ul li {
+  transition: 0.5s all;
+  cursor: pointer;
+}
+header .navbottom ul li:hover {
+  color: #bdbdbd;
+}
+
+/*# sourceMappingURL=header.module.css.map */

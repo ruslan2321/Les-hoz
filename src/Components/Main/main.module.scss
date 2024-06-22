@@ -1,0 +1,218 @@
+main {
+	width: 100%;
+	height: auto;
+	padding-top: 60px;
+}
+.title{
+    background-color: #17a085;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+    h3 {
+		font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+	}
+}
+.page_1 {
+	margin: 0;
+	background-image: url('image/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 38rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	color: white;
+}
+.page_2{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 0rem 0rem 3rem;
+  .block_1{
+    display: flex;
+    position: relative;
+    background-color: #17a085;
+    border-radius: 10px;
+    width: 1326px;
+   font-size: 1.4rem;
+    height: 206px;
+    color: white;
+    padding: 3rem;
+    box-shadow: 1px 1px 8px 0px black;
+
+  }
+  .block_2{
+    margin: 1rem;
+    img{
+      width: 300px;
+
+    }
+    .director{
+      position: absolute;
+    margin: 2rem 22rem;
+    width: 37rem;
+    height: 7rem;
+    background-color: #17a085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    }
+  }
+}
+.page_3 {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0rem 0rem 1rem;
+  .slider{
+    display: flex;
+    justify-content: center;
+  }
+	button {
+		position: absolute;
+		width: 45px;
+		height: 74px;
+		background-color: transparent;
+		border: none;
+		gap: 1rem;
+		display: flex;
+	}
+}
+.page_4{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .documents{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    .document{
+      background-color: #17a085;
+      width: 63rem;
+      height: 4rem;
+      margin-top: 1rem;
+      display: flex;
+      border-radius: 10px;
+      align-items: center;
+      padding: 1rem;
+      transition: 0.5s all;
+      &::before{
+        content: '';
+        width: 50px;
+        height: 4rem;
+        background-color:  #17a085;
+        display: flex;
+        margin-left: 60rem;
+        transform: skew(-25deg);
+        position: absolute;
+        border-radius: 10px;
+        transition: 0.5s all;
+      }
+      &:hover{
+        background-color: #09473b;
+        transform: scale(1.05);
+      }
+      &:hover::before{
+        background-color: #09473b;
+        transform: scale(1) skew(-25deg);
+      }
+      a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-left: 1rem;
+      }
+      img{
+        width: 32px;
+        height: 32px;
+
+      }
+    }
+  }
+}
+.page_5{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 0rem 0rem 3rem;
+  .reception{
+    display: flex;
+    position: relative;
+    background-color: #17a085;
+    border-radius: 10px;
+    width: 1326px;
+   font-size: 1.4rem;
+    height: 206px;
+    color: white;
+    padding: 2rem 2rem;
+    box-shadow: 1px 1px 8px 0px black;
+    p{
+      width: 44rem;
+      line-height: 2rem;
+    }
+
+  }
+
+}
+.page_6{
+  .news{
+    margin: 0rem 7rem;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    width: 82rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+    img{
+        width: 22rem;
+        margin: 1rem;
+        border-radius: 5px;
+      }
+      p{
+        width: 20rem;
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+    .new{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      width: 24rem;
+      height: 30rem;
+      background-color: #17a085;
+      border-radius: 10px;
+      transition: 0.5s all;
+      &:hover{
+        transform: scale(1.05);
+        background-color: #09473b;
+      }
+    }
+  }
+
